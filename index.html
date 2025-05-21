@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- External Resources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="glass-card">
+            <div class="logo">
+                <span>S</span>
+                <span>Syahram</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active" data-section="home"><img src="assets/icons/home-white.svg" alt=""> Home</a>
+                <a href="#projects" class="nav-link" data-section="projects"><img src="assets/icons/box-white.svg" alt=""> Projects</a>
+                <a href="#contact" class="nav-link" data-section="contact"><img src="assets/icons/mail-white.svg" alt=""></i> Contact</a>
+            </div>
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Home Section -->
+            <section id="home" class="section home-section active">
+                <div class="profile-container glass-card">
+                    <img src="assets/images/pp.jpg" alt="Profile" class="profile-pic animate__animated animate__bounceIn" style="animation-delay: 0.3s;">
+                    <div class="profile-inside">
+                        <h1 class="profile-name animate__animated animate__fadeInUp" style="animation-delay: 0.5s;">Syahram</h1>
+                        <p class="profile-bio animate__animated animate__fadeInUp" style="animation-delay: 0.7s;">I like playing games, watching romance anime, and am always curious about technology.</p>
+                    </div>
+                </div>
+                
+                <div class="connect-me-container glass-card">
+                    <h1 class="text-white font-bold lg:text-xl">Connect with me</h1>
+                    <div class="grid">
+                        <a href="https://instagram.com/syahramahram" target="_blank" rel="noopener noreferrer">
+                            <img class="img-sosial" src="assets/icons/instagram.png" alt="Instagram">
+                            <p>Instagram</p>
+                        </a>
+                        <a href="https://wa.me/62887436076360" target="_blank" rel="noopener noreferrer">
+                            <img class="img-sosial" src="assets/icons/wa.png" alt="WhatsApp">
+                            <p>WhatsApp</p>
+                        </a>
+                        <a href="https://discord.gg/W38QWnuwAS" target="_blank" rel="noopener noreferrer">
+                            <img class="img-sosial" src="assets/icons/dc.png" alt="Ram Community">
+                            <p>Ram Community</p>
+                        </a>
+                        <a href="https://www.youtube.com/@syahramsamp" target="_blank" rel="noopener noreferrer">
+                            <img class="img-sosial" src="assets/icons/youtube.png" alt="YouTube">
+                            <p>YouTube</p>
+                        </a>
+                    </div>
+                    <div class="discord">
+                        <a href="https://discord.com/users/764278933457207327" target="_blank">
+                            <img src="https://discord.c99.nl/widget/theme-4/764278933457207327.png" alt="My Discord Banner">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+<section id="projects" class="section projects-section">
+  <div class="projects-grid">
+    
+    <!-- Project 1 -->
+    <div class="project-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+      <div class="project-info">
+        <h3 class="project-title">Ram Bot WhatsApp</h3>
+        <img src="assets/images/Ram.png" alt="Ram Bot WhatsApp" class="project-img">
+        <p class="project-desc">A bot assistant that is ready to help anytime with various features on WhatsApp.</p>
+        <div class="project-tags">
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">Bot</span>
+          <span class="project-tag">WhatsApp</span>
+        </div>
+        <button onclick="window.open('https://wa.me/62856912248823?text=.menu', '_blank')" class="project-btn">Chat With Bot</button>
+      </div>
+    </div>
+    
+    <!-- Project 2 -->
+    <div class="project-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+      <div class="project-info">
+        <h3 class="project-title">NShop</h3>
+        <img src="assets/images/profile.png" alt="NShop" class="project-img">
+        <p class="project-desc">A digital store that provides many premium apps with quality, guaranteed, and also cheap with various testimonials and good ratings from customers.</p>
+        <div class="project-tags">
+          <span class="project-tag">Store</span>
+          <span class="project-tag">Digital</span>
+          <span class="project-tag">App</span>
+        </div>
+        <button onclick="window.open('https://wa.me/62887436076360?text=Excuse%20me,%20can%20i%20buy%20something?', '_blank')" class="project-btn">Order Via WhatsApp</button>
+        <button onclick="window.open('https://discord.com/users/764278933457207327', '_blank')" class="project-btn">Order Via Discord</button>
+      </div>
+    </div>
+    
+    <!-- Project 3 -->
+    <div class="project-card animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+      <div class="project-info">
+        <h3 class="project-title">Cappie Mita Bot Discord</h3>
+        <img src="assets/images/Cappie.jpg" alt="Mobile Apps" class="project-img">
+        <p class="project-desc">A bot that can help NShop customers to see ratings, testimonials, products, order tickets, complaint tickets, and many others.</p>
+        <div class="project-tags">
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">Bot</span>
+          <span class="project-tag">Discord</span>
+        </div>
+        <button onclick="window.open('https://discord.gg/W38QWnuwAS', '_blank')" class="project-btn">Go To Server</button>
+      </div>
+    </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section home-section">
+                <div class="profile-container glass-card">
+                    <div class="profile-inside">
+                        <h1 class="profile-name animate__animated animate__fadeInUp" style="animation-delay: 0.5s; font-size: 16px; font-weight: bold; text-decoration: none;">Contact me</h1>
+                        <p class="profile-bio animate__animated animate__fadeInUp" style="animation-delay: 0.7s; font-size: 16px; font-weight: bold;">feel free to contact me anytime via below</p>
+                        <p class="profile-bio animate__animated animate__fadeInUp" style="animation-delay: 0.7s; font-size: 16px; font-weight: bold;">
+  - Discord <a href="https://discord.com/users/764278933457207327" target="_blank">syahram#5121</a>
+</p>
+                        <p class="profile-bio animate__animated animate__fadeInUp" style="animation-delay: 0.7s; font-size: 16px; font-weight: bold;">
+  - Email <a href="https://mail.google.com/mail/?view=cm&fs=1&to=syahramahram@gmail.com" target="_blank">syahramahram@gmail.com</a>
+</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="glass-card">
+            <p><a href="#contact">Contact Me</a> • <a href="#">
+
+</a></p>
+            <p>© 2025 Syahram. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
